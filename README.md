@@ -1,9 +1,13 @@
 # SWEN1_LE06_Lernaufgabe_Klassenentwurf_4.4
 
+<div class="panel panel-warning">
 ## TODO
+{: .panel-heading}
+<div class="panel-body">
 * Erweiterung der Aufgabe um eine externe Authentifizierung. 
 * Quellcode bereinigen und Tests mit Mocking vorbereiten (JUnit 5, Mockito). 
-{: .alert .alert-warning}
+</div>
+</div>
 
 Dies ist der Quellcode für die Aufgabe 4.4 in der Wissensicherung.  
 
