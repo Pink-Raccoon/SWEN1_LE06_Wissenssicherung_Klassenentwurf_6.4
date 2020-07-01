@@ -1,0 +1,1 @@
+# SWEN1_LE06_Lernaufgabe_Klassenentwurf_4.4
