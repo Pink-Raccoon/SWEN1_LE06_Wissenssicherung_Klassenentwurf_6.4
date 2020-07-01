@@ -1,1 +1,9 @@
 # SWEN1_LE06_Lernaufgabe_Klassenentwurf_4.4
+
+Dies ist der Quellcode für die Aufgabe 4.4 in der Wissensicherung.  
+
+## Builden und Ausführen der Applikation  
+* Die partielle Applikation ist ein Maven-Projekt und kann direkt in eine IDE importiert werden oder auf der Kommandozeile im Verzeichnis des Projektes mit folgendem Kommando aufgerufen werden: ```mvnw spring-boot:run``` or ```./mvnw spring-boot:run```  
+
+## Hints
+* ...
