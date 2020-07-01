@@ -1,6 +1,6 @@
 # SWEN1_LE06_Lernaufgabe_Klassenentwurf_4.4
 
-##TODO
+## TODO
 * Erweiterung der Aufgabe um eine externe Authentifizierung. 
 * Quellcode bereinigen und Tests mit Mocking vorbereiten (JUnit 5, Mockito). 
 
