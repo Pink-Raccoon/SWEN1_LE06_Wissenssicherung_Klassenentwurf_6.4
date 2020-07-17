@@ -1,6 +1,6 @@
-# SWEN1_LE06_Lernaufgabe_Klassenentwurf_4.4
+# SWEN1_LE06_Lernaufgabe_Klassenentwurf_6.4
 
-Dies ist der Quellcode für die Aufgabe 4.4 in der Wissensicherung.  
+Dies ist der Quellcode für die Aufgabe 6.4 in der Wissensicherung.  
 
 ## TODO
 * Erweiterung der Aufgabe um eine externe Authentifizierung. 
