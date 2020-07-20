@@ -12,7 +12,6 @@ public class Contribution {
 	private Instant creationDateTime;
 
 	public Contribution(String content, User user, Instant creationDateTime) {
-		super();
 		this.content = content;
 		this.user = user;
 		this.creationDateTime = creationDateTime;

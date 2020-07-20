@@ -3,7 +3,6 @@ package ch.zhaw.soe.swen1.le06.forum.domain;
 import java.time.Clock;
 import java.time.Instant;
 import java.time.ZoneId;
-
 import org.junit.jupiter.api.BeforeEach;
 
 /**
@@ -21,9 +20,5 @@ public class ForumTest {
 		reference = Instant.ofEpochSecond(1000000); 
 		// use a clock which returns always the same time, so testing is easy
 		forum = new Forum(Clock.fixed(reference, ZoneId.systemDefault()));
-		user = new User("User", new byte[]{0});
-		forum.getUsers().add(user);
 	}
-	 
-
 }

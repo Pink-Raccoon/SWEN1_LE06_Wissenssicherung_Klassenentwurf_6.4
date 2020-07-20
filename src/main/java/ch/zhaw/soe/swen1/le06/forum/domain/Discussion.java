@@ -1,6 +1,5 @@
 package ch.zhaw.soe.swen1.le06.forum.domain;
 
- 	
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +12,6 @@ public class Discussion {
 	private List<Contribution> contributions = new ArrayList<Contribution>();
 
 	public Discussion(String name) {
-		super();
 		this.name = name;
 	}
 
@@ -25,10 +23,7 @@ public class Discussion {
 		this.name = name;
 	}
 
-	public List<Contribution> getContributions() {
+	protected List<Contribution> getContributions() {
 		return contributions;
 	}
-	
-	 
-
 }

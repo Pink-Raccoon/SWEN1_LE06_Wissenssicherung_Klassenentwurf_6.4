@@ -1,7 +1,6 @@
 package ch.zhaw.soe.swen1.le06.forum.domain;
 
 import java.time.Clock;
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,6 @@ public class Forum {
 	private List<Topic> topics = new ArrayList<>();
 
 	public Forum(Clock clock) {
-		super();
 		this.clock = clock;
 	}
 
@@ -47,6 +45,9 @@ public class Forum {
 		return null;
 	}
 	
+	/**
+	 * Returns the user with the specified name or null if there is no such user. 
+	 */
 	protected User getUserForName(String name){
 		for(User user : users){
 			if (user.getName().equals(name)){
@@ -55,6 +56,4 @@ public class Forum {
 		}
 		return null;
 	}
-	
-	 	
 }
