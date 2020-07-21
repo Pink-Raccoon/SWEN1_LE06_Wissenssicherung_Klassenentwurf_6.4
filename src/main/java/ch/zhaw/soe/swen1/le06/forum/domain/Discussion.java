@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * A discussion inside a topic of a form. 
- *
  */
 public class Discussion {
 	private String name;

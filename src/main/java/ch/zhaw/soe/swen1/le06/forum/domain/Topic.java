@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Represents a topic for discussions.
- *
+ * Represents a topic for discussions.  
  */
 public class Topic {
 	private String name;
@@ -33,12 +32,12 @@ public class Topic {
 		this.name = name;
 	}
 
-	protected List<Discussion> getDiscussions() {
+	public List<Discussion> getDiscussions() {
 		return discussions;
 	}
 	
 	/**
-	 * Returns the topic with the specified name or null if there is no such topic. 
+	 * Returns the topic with the specified name or null if there is no such topic. 	 * 
 	 */
 	protected Discussion getDiscussionForName(String name){
 		for(Discussion discussion : discussions){

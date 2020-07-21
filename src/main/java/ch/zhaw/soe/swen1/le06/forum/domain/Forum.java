@@ -1,12 +1,11 @@
 package ch.zhaw.soe.swen1.le06.forum.domain;
 
-import java.time.Clock;
 import java.util.ArrayList;
 import java.util.List;
+import java.time.Clock;
 
 /**
- * Represents the whole forum with its list of topics and users
- *
+ * Represents the whole forum with its list of topics and users.
  */
 public class Forum {
 	private Clock clock;
@@ -18,16 +17,14 @@ public class Forum {
 	}
 
 	/**
-	 * Returns the list of users. Just for tests. 
-	 * @return
+	 * Returns the list of users. Just for tests.  
 	 */
 	protected List<User> getUsers() {
 		return users;
 	}
 	
 	/**
-	 * Returns the list of topics. Just for tests. 
-	 * @return
+	 * Returns the list of topics. Just for tests.  
 	 */
 	protected List<Topic> getTopics() {
 		return topics;

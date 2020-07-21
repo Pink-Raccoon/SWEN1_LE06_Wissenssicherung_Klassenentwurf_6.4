@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * Represents a user that participates in this forum.
- *
  */
 public class User {
 	private String name;
@@ -27,6 +26,10 @@ public class User {
 	public void addContribution(Contribution contribution){
 		contributions.add(contribution);
 	}
+	
+	public int getNbrOfContributions() {
+		return contributions.size();
+	}
 
 	public String getEmail() {
 		return email;
@@ -34,5 +37,5 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
+	}	
 }
