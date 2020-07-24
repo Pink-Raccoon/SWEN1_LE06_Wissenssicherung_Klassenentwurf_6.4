@@ -1,4 +1,4 @@
-# SWEN1_LE06_Lernaufgabe_Klassenentwurf_6.4
+# SWEN1_LE06_Wissensicherung_Klassenentwurf_6.4
 
 Dies ist der Quellcode für die Aufgabe 6.4 in der Wissensicherung.  
 
