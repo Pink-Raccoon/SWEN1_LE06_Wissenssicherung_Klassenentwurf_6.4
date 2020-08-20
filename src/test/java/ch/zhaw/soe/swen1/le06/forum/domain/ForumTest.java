@@ -15,24 +15,24 @@ import org.mockito.junit.jupiter.MockitoExtension;
  */
 @ExtendWith(MockitoExtension.class)
 public class ForumTest {
-	private Forum forum;
-	private User user;
-	byte[] accessToken;
-	private Instant reference;
+    private Forum forum;
+    private User user;
+    byte[] accessToken;
+    private Instant reference;
 
-	@BeforeEach
-	public void setUp() throws Exception {
-		reference = Instant.ofEpochSecond(1000000); 
-		// use a clock which returns always the same time, so testing is easy
-		forum = new Forum(Clock.fixed(reference, ZoneId.systemDefault()));
-		user = new User("User", "email");
-		accessToken = new byte[]{0};
-		forum.getUsers().add(user);
-	}
+    @BeforeEach
+    public void setUp() throws Exception {
+        reference = Instant.ofEpochSecond(1000000); 
+        // use a clock which returns always the same time, so testing is easy
+        forum = new Forum(Clock.fixed(reference, ZoneId.systemDefault()));
+        user = new User("User", "email");
+        accessToken = new byte[]{0};
+        forum.getUsers().add(user);
+    }
 
-	// Add your tests here.
-	@Test
-	public void testX() {
-		 
-	}	
+    // Add your tests here.
+    @Test
+    public void testX() {
+         
+    }	
 }
