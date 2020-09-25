@@ -4,10 +4,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ch.zhaw.soe.swen1.le06</groupId>
-  <artifactId>forum</artifactId>
+  <artifactId>swen1_le06_forum</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>forum</name>
+  <name>swen1_le06_forum</name>
   
   <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
