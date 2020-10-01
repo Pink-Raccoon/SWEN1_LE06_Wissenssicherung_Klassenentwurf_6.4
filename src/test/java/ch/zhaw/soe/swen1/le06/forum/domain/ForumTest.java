@@ -34,11 +34,11 @@ public class ForumTest {
     }
 
     @Test
-    public void getNbrOfContributionAndAssertIt() {
+    public void getNbrOfContributionsAndAssertIt() {
         //TODO: Add your test here.
     }  
     @Test
-    public void addDiscussionToTopicAndAssertIt() {
+    public void addNewDiscussionToTopicAndAssertIt() {
         //TODO: Add your test here.
     }   
 }
