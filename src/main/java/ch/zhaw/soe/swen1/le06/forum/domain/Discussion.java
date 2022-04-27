@@ -25,4 +25,9 @@ public class Discussion {
     protected List<Contribution> getContributions() {
         return contributions;
     }
+
+    public int getNbrOfContributions(){
+        int result = contributions.size();
+        return result;
+    }
 }

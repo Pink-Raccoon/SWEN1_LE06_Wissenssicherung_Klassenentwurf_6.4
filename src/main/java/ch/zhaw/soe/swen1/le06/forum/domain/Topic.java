@@ -47,4 +47,22 @@ public class Topic {
         }
         return null;
     }
+    protected int getNbrOfContributions(){
+        int result = 0;
+        for(Discussion discussion : discussions){
+            result+= discussion.getNbrOfContributions();
+        }
+        return result;
+    }
+
+    protected Discussion addNewDiscussion(String name){
+        Discussion discussion = getDiscussionForName(name);
+        if (discussion != null){
+            throw new RuntimeException("Collision: " + name);
+        }
+        discussion = new Discussion(name);
+        discussions.add(discussion);
+        return discussion;
+    }
+
 }
