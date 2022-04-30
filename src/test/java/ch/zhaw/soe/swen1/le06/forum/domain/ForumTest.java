@@ -22,7 +22,7 @@ import static org.mockito.Mockito.*;
  */
 @ExtendWith(MockitoExtension.class)
 public class ForumTest {
-    //@Mock
+    @Mock
     private AcessTokenValidationService service;
     private Forum forum;
     private User user;
